@@ -12,6 +12,7 @@ body {
     max-width: 960px;
     margin: 0 auto;
     clear: both;
+    padding: 0px;
 }
 
 h3 {
@@ -48,7 +49,6 @@ nav {
     z-index: 99;
     width: 100%;
     margin: 0 0 30px;
-    padding: 0%;
     overflow: auto;
     color: #ffffff;
     background: #ffffff;
@@ -131,7 +131,7 @@ footer {
 
 /* Portfolio */
 .port {
-    padding-bottom: 700px;
+    padding-bottom: 1100px;
 }
 
 #last {
@@ -157,7 +157,20 @@ footer {
     opacity: 0.8;
     margin-bottom: 20px;
   }
-  
+
+.dp {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
 .work h6 {
     position: absolute;
     bottom: 20px;
